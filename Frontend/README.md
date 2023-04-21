@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+Introduction to the course
+Install development tools
+Create App as frontend
+    1. Create project's folder
+    2. Install @angular/cli
+    3. Create App as frontend
+
+4. Add Header
+  1. Generate Component
+  2.Add Html
+  3.Add CSS

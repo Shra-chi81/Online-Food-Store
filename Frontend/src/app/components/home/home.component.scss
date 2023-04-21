@@ -1,0 +1,100 @@
+body {
+  background-color: #fff;
+
+}
+.masthead {
+  height: 92vh;
+  color: #2f2e41;
+  overflow-y: hidden;
+  min-height: 500px;
+  // background-image: url('https://storage.googleapis.com/canteen-assets/index/bgy.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Space Mono', monospace;
+
+}
+
+.masthead h1 {
+  -webkit-animation: focus-in-contract-bck 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: focus-in-contract-bck 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.lead{
+    color: #2f2e41;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+@-webkit-keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+            transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+            transform: translateZ(12px);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+            transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+            transform: translateZ(12px);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+
+// #mybtn{
+//      display: none;
+//       position:fixed;
+//       bottom: 20px;
+//       right: 20px;
+//       z-index: 99;
+//       border: none;
+//       color:#F8C44C;
+//       background:white;
+//       /* background: #F8C44C; */
+//       padding: 10px;
+//       background-color:whitesmoke;
+//       border-radius: 10px;
+//   }
+// #mybtn:hover{
+//       color: tomato;
+//       background-color: #f1f1f1;
+//       /* color :#F8C44C */
+// }
+
+
+// @media (max-width: 700px) {
+//   h1{
+//     font-size: 24px;
+//   }
+//   h3{
+//     font-size: 18px;
+//   }
+// }
+
+// @media (max-width: 500px) {
+//   h1{
+//     font-size: 18px;
+//   }
+//   h3{
+//     font-size: 14px;
+//   }
+// }
