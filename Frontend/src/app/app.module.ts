@@ -10,6 +10,9 @@ import { ChefComponent } from './components/foods/chef/chef.component';
 import { SignInComponent } from './components/auth/sign-in/sign-in.component';
 import { SignUpComponent } from './components/auth/sign-up/sign-up.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { HowItWorksComponent } from './components/how-it-works/how-it-works.component';
+import { FooterComponent } from './components/auth/footer/footer.component';
+import { FoodCollectionComponent } from './components/foods/food-collection/food-collection.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +23,15 @@ import { ProfileComponent } from './components/profile/profile.component';
     ChefComponent,
     SignInComponent,
     SignUpComponent,
-    ProfileComponent
+    ProfileComponent,
+    HowItWorksComponent,
+    FooterComponent,
+    FoodCollectionComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
